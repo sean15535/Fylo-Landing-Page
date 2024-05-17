@@ -10,3 +10,7 @@ body {
   box-sizing: border-box;
 }
 
+header {
+  display: block;
+  padding: 60px;
+}
