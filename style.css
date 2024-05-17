@@ -1,0 +1,11 @@
+/* Desktop/Laptop Layout - min-width: 1200px */
+/* Global Elements */
+a {  text-decoration: none; color: #fff; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
