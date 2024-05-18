@@ -1,31 +1,23 @@
-/* Desktop/Laptop Layout - min-width: 1200px */
-/* Global Elements */
-a {  text-decoration: none; color: #fff; }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+:root{
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  margin: 0;
+  --header-font:'Raleway', sans-serif;
+  --body-font : 'Open Sans', sans-serif;
+  --header-text-and-footer-bg: hsl(243, 87%, 12%);
+  --purple-ctc-bg : hsl(238, 22%, 44%);
+  --button-bg-blue:hsl(224, 93%, 58%);
+  --hover-link-color: hsl(170, 45%, 43%);
+  --body-bg-light-blue:hsl(240, 75%, 98%);
+  --gray-white:hsl(0, 0%, 75%);
+  --section-buttom-margin:120px;
+  --ilustation-img-size:680px;
+  --card-shadow:0 0 20px hsla(0, 0%, 75%, 0.4);
+  --ctc-shadow:2px 2px 4px #3a3a3a32;
+
+}
+
+*{
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
-}
-
-
-/* ul {  list-style: none; } */
-
-.site-header {
-  padding: 3% 5%;
-}
-
-
-.nav {  font-family: 'Raleway', sans-serif; }
-
-.header-logo{
-  vertical-align: middle; 
-  padding-right: 50%;
-}
-.header-nav__menu {
-  color: hsl(238, 22%, 44%);
-  padding-right: 3%;
-  font-size: 1.1rem;
 }
