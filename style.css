@@ -10,7 +10,22 @@ body {
   box-sizing: border-box;
 }
 
-header {
-  display: block;
-  padding: 60px;
+
+/* ul {  list-style: none; } */
+
+.site-header {
+  padding: 3% 5%;
+}
+
+
+.nav {  font-family: 'Raleway', sans-serif; }
+
+.header-logo{
+  vertical-align: middle; 
+  padding-right: 50%;
+}
+.header-nav__menu {
+  color: hsl(238, 22%, 44%);
+  padding-right: 3%;
+  font-size: 1.1rem;
 }
