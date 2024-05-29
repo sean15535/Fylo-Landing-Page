@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
 :root{
 
   --header-font:'Raleway', sans-serif;
@@ -20,4 +21,25 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.site-header{
+  padding: 40px 60px;
+}
+
+.header-nav{
+  display: flex;
+}
+.logo{
+    display: grid;
+    place-content: center;
+}
+.header-logo{
+  width: 100px;
+}
+.header-nav{
+  gap:10px
+}
+.header-nav-menu{
+  
 }
